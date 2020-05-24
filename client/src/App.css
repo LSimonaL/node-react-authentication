@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/*Navigation*/
+.fish {
+  color:#ffffff;
+}
+
+.fish:hover{
+  color:#ffffff;
+  transform: rotate(20deg);
+}
+
+.navbar {
+  background-color: #14213d !important;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2) !important;
+}
+
+/*Login & Signup*/
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  transition: all .3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #007ea7;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.btn-form {
+  background-color: #007ea7 !important;
+  border-color: #007ea7 !important;
+}
+
+/*---------------contact form-------------------*/
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #fca311 !important;
+  border: none !important;
+  margin-bottom: 20px;
+  width:100%;
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+}
+
+.contact-box-1 {
+  background: #14213d;
+  color: #ffffff;
+}
+.contact-box-2 {
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.form-group label {
+  color: #858585;
+  font-size: 0.9em;
+}
+
+/*Profile*/
+  .masthead {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    background-color: #007ea7;
+  }
+  
+  .masthead .masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+  }
+  
+  .masthead-heading-home {
+    font-size: 1.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.25rem;
+  }
+  
+  .masthead .masthead-avatar {
+    width: 9rem;
+  }
